@@ -12,12 +12,17 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: $pColour;
+    color: white;
 }
 
 p {
     font-size: 3em;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
 
 
 .flex {
