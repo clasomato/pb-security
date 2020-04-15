@@ -1,0 +1,71 @@
+@import "variables";
+@import "grid";
+@import "nav";
+@import "index";
+
+img {
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $pColour;
+}
+
+p {
+    font-size: 3em;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+
+
+.container {
+    padding: 5% 5%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+
+.pColour {
+    background-color: #0d4f77;
+}
+
+.sColour {
+    background-color: #f08222;
+}
+
+.tColour {
+    background-color: #f39b4e;
+}
+
+
+
+.textWhite {
+    color: white;
+}
+
+.noTextDeco {
+    text-decoration: none;
+}
+
+.sHeader1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
