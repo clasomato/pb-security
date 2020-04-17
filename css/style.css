@@ -195,6 +195,12 @@
 .icon {
   font-size: 2.5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000332}}
+.notificationItem {
+  padding: 1% 2%;
+  border-radius: 1em;
+  margin: 3% 0%; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\000031}}
 .slidebuttons {
   position: absolute;

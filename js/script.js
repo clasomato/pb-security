@@ -11,3 +11,8 @@ $("#buttonOn").click(function(){
     $("#buttonOn").removeClass("displayBlock").addClass("displayNone");
     $("#buttonOff").removeClass("displayNone").addClass("displayBlock");
 });
+
+
+$("#notificationToggle").click(function(){
+    $("#notificationPanel").slideToggle();
+});
