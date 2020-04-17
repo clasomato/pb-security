@@ -6,8 +6,24 @@
 .settingsTag {
     font-size: 0.9em;
     font-weight: 300;
+
 }
 
 .settingsToggle {
+    width: 40%;
+    float: right;
+    display: flex;
+    align-items: flex-end;
+}
+
+.settingsImg {
     width: 20%;
+    float: right;
+    position: relative;
+}
+
+.logoutButton {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
