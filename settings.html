@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/2d2211742d.js" crossorigin="anonymous"></script>
-        <title>PB Home</title>
+        <title>PB Home | Settings</title>
     </head>
     <header>
         <nav class="navigation sColour">
@@ -28,39 +28,43 @@
     </header>
 
     <body>
-        <div class="container pColour">
-            <div class="quickDevices flex spaceBetween">
-                <a href="#" class="noTextDeco navIcon textWhite sColour"><i class="fas fa-camera icon"></i></a>
-                <a href="#" class="noTextDeco navIcon textWhite sColour"><i class="fas fa-lock icon"></i></a>
-                <a href="#" class="noTextDeco navIcon textWhite sColour"><i class="fas fa-fire icon"></i></a>
-                <a href="#" class="noTextDeco navIcon textWhite sColour"><i class="fas fa-thermometer-three-quarters icon"></i></a>
-                <a href="#" class="noTextDeco navIcon textWhite sColour"><i class="fas fa-info-circle icon"></i></a>
-            </div>
-        </div>
-
-        <!-- Slideshow -->
-        <div class="slideshow">
-            <div class="slidebuttons">
-                <a href="#" class="slideButton sColour noTextDeco textWhite">Left</a>
-                <a href="#" class="slideButton sColour noTextDeco textWhite">Right</a>
-            </div>
-            <img src="media/placeholder.jpg" alt="">
-            <div class="flex horizontalCenter">
-                <a href="#" class="button noTextDeco">Security</a>
-            </div>
-
-        </div>
-
-        <!-- Events -->
         <div class="container">
-            <div class="events textWhite">
-                <h2 class="sHeader1">Events</h2>
-                <p><span class="bold">Moiton Detection</span> - Lorem Ipsum ipsum dolor sit amet.</p>
-                <hr>
-                <h2 class="sHeader1">Events</h2>
-                <p><span class="bold">Moiton Detection</span> - Lorem Ipsum ipsum dolor sit amet.</p>
+            <h2 class="sHeader1">Settings</h2>
+            <h3 class="sHeader1">Quick Toggles</h3>
+        </div>
+
+        <div class="settingsContainer sColour flex spaceBetween">
+            <div class="settingsTag">
+                <p>Push Notifications</p>
+            </div>
+
+            <div class="settingsToggle flex vertcalCenter">
+                <img src="media/buttonOff.png" id="buttonOff" alt="">
+                <img src="media/buttonOn.png" id="buttonOn" alt="" class="displayNone">
             </div>
         </div>
+
+        <div class="settingsContainer tColour flex spaceBetween">
+            <div class="settingsTag">
+                <p>Motion Detection</p>
+            </div>
+
+            <div class="settingsToggle flex vertcalCenter">
+                <img src="media/buttonOff.png" alt="">
+                <img src="media/buttonOn.png" alt="" class="displayNone">
+            </div>
+        </div>
+
+        <div class="settingsContainer sColour flex spaceBetween">
+            <div class="settingsTag">
+                <p>Assistant Type</p>
+            </div>
+
+            <div class="settingsToggle flex vertcalCenter">
+                <p>Alexa</p>
+            </div>
+        </div>
+
 
 
 

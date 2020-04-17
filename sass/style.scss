@@ -2,6 +2,11 @@
 @import "grid";
 @import "nav";
 @import "index";
+@import "settings";
+
+* {
+    box-sizing: border-box;
+}
 
 img {
     width: 100%;
@@ -29,11 +34,29 @@ ul {
     display: flex;
 }
 
-
 .spaceBetween {
     justify-content: space-between;
 }
 
+.horizontalCenter {
+    justify-content: center;
+}
+
+.vertcalCenter {
+    align-items: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
 
 
 .container {
@@ -73,4 +96,13 @@ ul {
 
 .bold {
     font-weight: bold;
+}
+
+
+
+.button {
+    background-color: $sColour;
+    color: white;
+    font-size: 2em;
+    padding: 1% 2%;
 }

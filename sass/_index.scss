@@ -1,0 +1,17 @@
+.slidebuttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+    width: 100%;
+    font-size: 3em;
+}
+
+.slideButton {
+    padding: 2% 3%;
+}
+
+.securityButton {
+    display: flex;
+    width: 20%;
+}
