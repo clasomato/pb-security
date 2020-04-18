@@ -175,10 +175,10 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 3%;
+  padding: 4%;
   border-radius: 50%;
   border: 10px solid #0d4f77;
-  font-size: 2em;
+  font-size: 1em;
   height: 4em;
   width: 4em;
   background-color: #0d4f77; }
@@ -391,7 +391,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\0000324}}
 p {
-  font-size: 3em; }
+  font-size: 1em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\0000328}}
 ul {
@@ -471,12 +471,12 @@ ul {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003102}}
 .sHeader1 {
-  font-size: 4em;
+  font-size: 2em;
   font-weight: bold; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003107}}
 .sHeader2 {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0px;
   padding: 0px; }
 
