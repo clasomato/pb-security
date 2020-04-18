@@ -34,3 +34,14 @@
     border-radius: 1em;
     margin: 3% 0%;
 }
+
+
+@media screen and (min-width: 600px) {
+    .notificationItem {
+        margin: 0px;
+    }
+
+    .navigation {
+        
+    }
+}

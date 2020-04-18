@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/2d2211742d.js" crossorigin="anonymous"></script>
+        <title>PB Home | Security</title>
+    </head>
+    <header>
+        <nav class="navigation sColour">
+            <div class="container flex spaceBetween">
+                <a href="index.html" class="pColour textWhite noTextDeco navIcon"><i class="fas fa-home icon"></i></a>
+                <a href="#" class="pColour textWhite noTextDeco navIcon" id="notificationToggle"><i class="fas fa-bell icon"></i></a>
+                <a href="#" id="navToggle" class="pColour textWhite noTextDeco navIcon"><i class="fas fa-bars icon"></i></a>
+            </div>
+
+            <!-- Notifications Dropdown -->
+            <div class="container displayNone" id="notificationPanel">
+                <div class="notificationItem w100 tColour">
+                    <p><span class="bold">Motion Detection</span> - 3:00am Front Door </p>
+                </div>
+
+                <div class="notificationItem w100 tColour">
+                    <p><span class="bold">System Update</span> - 3:50am Updated to version 1.1, system reboot succesful(4s) </p>
+                </div>
+            </div>
+
+            <div id="navList" class="navDropdown">
+                <ul class="noTextDeco">
+                    <li class="navItem container textWhite"><a href="index.html" class="noTextDeco textWhite">Home</a></li>
+                    <li class="navItem container textWhite tColour"><a href="security.html" class="noTextDeco textWhite">Security</a></li>
+                    <li class="navItem container textWhite">Accounts</li>
+                    <li class="navItem container textWhite tColour">Devices</li>
+                    <li class="navItem container textWhite"><a href="settings.html" class="noTextDeco textWhite">Settings</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <body>
+        <div class="container">
+            <h1 class="sHeader1 mp0">Security</h1>
+            <h3 class="sHeader2">Cameras</h3>
+        </div>
+
+        <div class="slideshow">
+            <img src="media/placeholder.jpg" alt="">
+
+
+
+
+
+            <div class="mp0 w100 textCenter">
+                <a href="#" class="mp0 noTextDeco textWhite sColour">View</a>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <h3 class="sHeader2">Security Actions</h3>
+            <div class="settingsContainer sColour flex spaceBetween">
+                <div class="settingsTag">
+                    <p class="mp0">Sentry Mode</p>
+                </div>
+
+                <div class="settingsToggle flex vertcalCenter">
+                    <img src="media/buttonOff.png" id="buttonOff" alt="" class="settingsImg">
+                    <img src="media/buttonOn.png" id="buttonOn" alt="" class="displayNone settingsImg">
+                </div>
+            </div>
+
+            <div class="settingsContainer tColour flex spaceBetween">
+                <div class="settingsTag">
+                    <p class="mp0">Lockdown</p>
+                </div>
+
+                <div class="settingsToggle flex vertcalCenter">
+                    <img src="media/buttonOff.png" alt="" class="settingsImg">
+                    <img src="media/buttonOn.png" alt="" class="displayNone settingsImg">
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
