@@ -32,3 +32,21 @@
     padding: 1%;
     border-radius: 1em;
 }
+
+
+@media screen and (min-width: 900px) {
+    .logoutButton {
+        position: inherit;
+        margin-top: 3%;
+    }
+
+    .settingsContainer {
+        padding: 0% 10%;
+    }
+
+    .settingsToggle {
+        flex-wrap: nowrap;
+        max-height: 5%;
+        font-size: 1em;
+    }
+}
