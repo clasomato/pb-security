@@ -204,7 +204,13 @@
 @media screen and (min-width: 900px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000340}}
   .notificationItem {
-    margin: 0px; } }
+    margin: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000344}}
+  .navIcon {
+    height: 2em;
+    width: 2em;
+    font-size: 2em; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\000031}}
 .slidebuttons {
   position: absolute;
