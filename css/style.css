@@ -211,7 +211,25 @@
     height: 2em;
     width: 2em;
     font-size: 2em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\000039}}
+.slideButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 18%;
+  z-index: 1000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000318}}
+.slideButton {
+  padding: 1%;
+  border-radius: 1em;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000325}}
 .slidebuttons {
   position: absolute;
   display: -webkit-box;
@@ -224,54 +242,32 @@
   width: 100%;
   font-size: 3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000334}}
 .slideButton {
   padding: 2% 3%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000314}}
-.securityButton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 20%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000343}}
+.slideshow {
+  overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000324}}
-.slideButtonContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 100%;
-  position: absolute;
-  bottom: 8%;
-  z-index: 1000; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000333}}
-.slideButton {
-  padding: 1%;
-  border-radius: 1em;
-  margin: 0 auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000347}}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
 /* Slideshow container */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000350}}
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto; }
 
 /* Hide the images by default */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000356}}
 .mySlides {
   display: none; }
 
 /* Next & previous buttons */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000361}}
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -292,18 +288,18 @@
   background-color: #f08222; }
 
 /* Position the "next button" to the right */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000378}}
 .next {
   right: 0;
   border-radius: 3px 0 0 3px; }
 
 /* On hover, add a black background color with a little bit see-through */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000384}}
 .prev:hover, .next:hover {
   background-color: #0d4f77; }
 
 /* Caption text */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000389}}
 .text {
   color: #f08222;
   font-size: 1.4em;
@@ -312,11 +308,10 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  text-align: center;
-  background-color: #0d4f77; }
+  text-align: center; }
 
 /* Number text (1/3 etc) */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003102}}
 .numbertext {
   color: #f08222;
   font-size: 1.4em;
@@ -325,7 +320,7 @@
   top: 0; }
 
 /* The dots/bullets/indicators */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003111}}
 .dot {
   cursor: pointer;
   cursor: pointer;
@@ -338,12 +333,16 @@
   -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003124}}
 .active, .dot:hover {
   background-color: #f39b4e; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003129}}
+.dot {
+  display: none; }
+
 /* Fading animation */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003135}}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -361,25 +360,67 @@
   to {
     opacity: 1; } }
 @media screen and (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003154}}
   .slideshow-container {
     height: 95vh !important;
     width: auto !important;
     max-width: 100%;
     overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003161}}
   .sildeshow {
     overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003165}}
   .mySlides {
     width: 100% !important;
     height: 100vh; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003170}}
   .text {
-    font-size: 2em; } }
+    font-size: 2em;
+    background-color: #0d4f77; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003175}}
+  .dot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003179}}
+  .slideButtonContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 8%;
+    z-index: 1000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003188}}
+  .slideButton {
+    padding: 1%;
+    border-radius: 1em;
+    margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003195}}
+  .slidebuttons {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 30%;
+    width: 100%;
+    font-size: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003204}}
+  .slideButton {
+    padding: 2% 3%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_settings\.scss}line{font-family:\000031}}
 .settingsContainer {
   width: 100%;

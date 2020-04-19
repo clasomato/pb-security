@@ -1,3 +1,27 @@
+
+
+// .securityButton {
+//     display: flex;
+//     width: 20%;
+// }
+
+
+.slideButtonContainer {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 18%;
+    z-index: 1000;
+}
+
+.slideButton {
+    padding: 1%;
+    border-radius: 1em;
+    margin: 0 auto;
+}
+
+
 .slidebuttons {
     position: absolute;
     display: flex;
@@ -11,36 +35,19 @@
     padding: 2% 3%;
 }
 
-.securityButton {
-    display: flex;
-    width: 20%;
-}
 
 
 
 
 
-
-.slideButtonContainer {
-    display: flex;
-    align-content: center;
-    width: 100%;
-    position: absolute;
-    bottom: 8%;
-    z-index: 1000;
-}
-
-.slideButton {
-    padding: 1%;
-    border-radius: 1em;
-    margin: 0 auto;
+.slideshow {
+    overflow: auto;
 }
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -88,7 +95,7 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: $pColour;
+  // background-color: $pColour;
 }
 
 /* Number text (1/3 etc) */
@@ -117,6 +124,12 @@
 .active, .dot:hover {
   background-color: $tColour;
 }
+
+
+.dot {
+    display: none;
+}
+
 
 /* Fading animation */
 .fade {
@@ -156,5 +169,39 @@
 
     .text {
         font-size: 2em;
+        background-color: $pColour;
+    }
+
+    .dot {
+        display: flex;
+    }
+
+    .slideButtonContainer {
+        display: flex;
+        align-content: center;
+        width: 100%;
+        position: absolute;
+        bottom: 8%;
+        z-index: 1000;
+    }
+
+    .slideButton {
+        padding: 1%;
+        border-radius: 1em;
+        margin: 0 auto;
+    }
+
+
+    .slidebuttons {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30%;
+        width: 100%;
+        font-size: 3em;
+    }
+
+    .slideButton {
+        padding: 2% 3%;
     }
 }
