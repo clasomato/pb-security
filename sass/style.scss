@@ -4,8 +4,8 @@
 }
 
 @mixin h100wa {
-    height: 100vh !important;
-    width: 100% !important;
+    height: 95vh !important;
+    width: auto !important;
 }
 
 
@@ -146,5 +146,13 @@ ul {
 
     p {
         font-size: 3em;
+    }
+
+    .sHeader1 {
+        font-size: 3em;
+    }
+
+    .sHeader2 {
+        font-size: 2em;
     }
 }
