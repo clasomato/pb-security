@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/2d2211742d.js" crossorigin="anonymous"></script>
+        <title>PB Home | First Time Setup</title>
+    </head>
+    <body>
+        <div class="container">
+            <a href="3.html" class="noTextDeco textWhite backArrow"><i class="fas fa-arrow-left"></i></a>
+            <h2>Add Your Devices</h2>
+            <p class="sColour device displayNone" id="pb2">PB Camera</p>
+            <a class="nextButton noTextDeco textWhite sColour cPointer" id="deviceToggle"><i class="fas fa-plus"></i></a>
+        </div>
+
+        <div class="container textCenter wag">
+            <div class="textCenter flex nextButtonContainer">
+                <a href="../index.html" class="nextButton noTextDeco textWhite sColour"><i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div class="deviceModal displayNone" id="modalPopup">
+            <div class="modalContainer">
+                <h3 class="offset">Wireless</h3>
+                <p class="sColour device">Phillips Hue Bulb</p>
+                <p class="tColour device">PB Smoke Detector</p>
+                <p class="sColour device" id="pbCamera">PB Camera <span class="deviceTick displayNone" id="deviceTick"><i class="fas fa-check"></i></span></p>
+
+                <h3 class="offset">Bluetooth</h3>
+                <p  class="offset" style="font-weight: 300;">No Devices Found</p>
+
+                <h2 class="doneButton" id="doneButton">Done</h2>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="../js/script.js"></script>
+    </body>
+</html>

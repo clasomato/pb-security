@@ -19,7 +19,24 @@ $("#notificationToggle").click(function(){
 
 
 
+// Set up devices
+$("#deviceToggle").click(function(){
+    $("#modalPopup").removeClass("displayNone");
+    $("#modalPopup").addClass("flex");
+});
 
+$("#pbCamera").click(function(){
+    $("#pb2").removeClass("displayNone");
+    $("#deviceTick").removeClass("displayNone");
+
+    $("#pb2").addClass("displayBlock");
+    $("#deviceTick").addClass("displayBlock");
+});
+
+$("#doneButton").click(function(){
+    $("#modalPopup").removeClass("flex");
+    $("#modalPopup").addClass("displayNone");
+});
 
 
 

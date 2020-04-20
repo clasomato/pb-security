@@ -1,0 +1,135 @@
+.setupContainer {
+    margin: 10% 0%;
+}
+
+.backArrow {
+    font-size: 3em;
+}
+
+// First Page (page 1)
+.languageDropdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 2%;
+    border-radius: 0.5em;
+    // overflow: hidden;
+    width: 100%;
+    font-size: 1.7em;
+}
+
+.wag {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+.nextButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+    border-radius: 50%;
+    border: 10px solid $pColour;
+    font-size: 3em;
+    height: 2em;
+    width: 2em;
+    background-color: $pColour;
+}
+
+.nextButtonContainer {
+    display: flex;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+// Second Page
+.setupForm {
+
+}
+
+.setupInput {
+    border: none;
+    background-color: $sColour;
+    color: white;
+    border-radius: 0.5em;
+    padding: 4% 2%;
+    font-size: 1.4em;
+    margin: 3% 0%;
+}
+
+.setupInput::placeholder {
+    color: white;
+}
+
+
+
+
+// Third page
+.assistantContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.assistantSelect {
+    width: 80%;
+    margin: 3% 4%;
+    font-size: 2em;
+    padding: 4% 0%;
+    border-radius: 0.5em;
+}
+
+
+
+
+
+// 4th Page
+.deviceModal {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    background-color: rgba(13, 79, 119, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContainer {
+    width: 80%;
+    height: 80%;
+    background-color: $pColour;
+    padding: 5% 0%;
+}
+
+.device {
+    padding: 4% 5%;
+    margin: 0;
+}
+
+.offset {
+    margin-left:5%;
+}
+
+.deviceTick {
+
+}
+
+.doneButton {
+    width: 80%;
+    background-color: $sColour;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 3% 0%;
+}

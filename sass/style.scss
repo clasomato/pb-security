@@ -130,6 +130,9 @@ ul {
     font-weight: bold;
 }
 
+.cPointer {
+    @include hoverPointer;
+}
 
 
 .button {
