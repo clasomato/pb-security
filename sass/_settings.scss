@@ -1,10 +1,12 @@
 .settingsContainer {
     width: 100%;
     padding: 1% 5%;
+    display: flex;
+    align-items: center;
 }
 
 .settingsTag {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 300;
     padding: 2% 0%;
 }
@@ -23,14 +25,17 @@
 }
 
 .logoutButton {
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
+
+    position: inherit;
+    margin-top: 3%;
     width: 100%;
 }
 
 .settingsDropdown {
-    padding: 1%;
-    border-radius: 1em;
+    padding: 1px;
+    border-radius: 0.5em;
 }
 
 
@@ -47,6 +52,7 @@
     .settingsToggle {
         flex-wrap: nowrap;
         max-height: 5%;
-        font-size: 1em;
+        font-size: 0.7em;
+        padding: 0% 1%;
     }
 }

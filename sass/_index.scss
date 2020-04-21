@@ -1,11 +1,4 @@
 
-
-// .securityButton {
-//     display: flex;
-//     width: 20%;
-// }
-
-
 .slideButtonContainer {
     display: flex;
     align-content: center;
@@ -35,6 +28,15 @@
     padding: 2% 3%;
 }
 
+
+
+
+
+
+// Desktop Devices
+.desktopRight {
+    display: none;
+}
 
 
 
@@ -117,7 +119,7 @@
   margin: 0 2px;
   background-color: $sColour;
   border-radius: 50%;
-  display: inline-block;
+  display: none;
   transition: background-color 0.6s ease;
 }
 
@@ -186,9 +188,10 @@
     }
 
     .slideButton {
-        padding: 1%;
+        padding: 1% 2%;
         border-radius: 1em;
         margin: 0 auto;
+        font-size: 2em;
     }
 
 
@@ -201,7 +204,33 @@
         font-size: 3em;
     }
 
-    .slideButton {
-        padding: 2% 3%;
+    .desktopRight {
+        display: block;
+        width: 30%;
+        float: right;
+        overflow: auto;
     }
+
+    .deviceIcon {
+        width: 2em;
+        font-size: 2em;
+        height: 2em;
+        border: 1em solid $sColour;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10em;
+        padding: 5%;
+    }
+
+    .desktopLeft {
+        width: 68%;
+        float: left;
+        overflow: auto;
+    }
+
+    .mobileDevices {
+        display: none;
+    }
+
 }
