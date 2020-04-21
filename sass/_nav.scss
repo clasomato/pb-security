@@ -36,7 +36,9 @@
 }
 
 
-@media screen and (min-width: 900px) {
+
+// Desktop/TV Optimization
+@media screen and (min-width: 1025px) {
     .notificationItem {
         margin: 0px;
     }

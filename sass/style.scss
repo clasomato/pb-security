@@ -142,7 +142,9 @@ ul {
     padding: 1% 2%;
 }
 
-@media screen and (min-width: 900px) {
+
+// Desktop/TV Optimization
+@media screen and (min-width: 1025px) {
     .container {
         padding: 1% 10%;
     }

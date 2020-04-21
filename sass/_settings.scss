@@ -44,11 +44,18 @@
 }
 
 
-@media screen and (min-width: 900px) {
+// Mobile Optimization
+@media screen and (min-width: 600px) {
+
+}
+
+
+// Desktop Optimization
+@media screen and (min-width: 1025px) {
     .logoutButton {
         position: absolute;
         bottom: 0;
-        margin-top: 3%;
+        margin-top: 13%;
     }
 
     .settingsContainer {
