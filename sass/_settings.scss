@@ -16,6 +16,7 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    padding: 0% 2%;
 }
 
 .settingsImg {
@@ -34,14 +35,19 @@
 }
 
 .settingsDropdown {
-    padding: 1px;
     border-radius: 0.5em;
+}
+
+
+.settingsDesktop {
+    display: none;
 }
 
 
 @media screen and (min-width: 900px) {
     .logoutButton {
-        position: inherit;
+        position: absolute;
+        bottom: 0;
         margin-top: 3%;
     }
 
@@ -54,5 +60,30 @@
         max-height: 5%;
         font-size: 0.7em;
         padding: 0% 1%;
+    }
+
+
+    .settingsLeft {
+        width: 50%;
+        float: left;
+        overflow: auto;
+        padding-left: 10%;
+    }
+
+    .settingsRight {
+        width: 48%;
+        float: right;
+        overflow: auto;
+        padding-right: 10%;
+    }
+
+
+    .settingsMobile {
+        display: none !important;
+    }
+
+    .settingsDesktop {
+        display: block;
+        overflow: auto;
     }
 }

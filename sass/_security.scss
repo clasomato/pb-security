@@ -1,0 +1,80 @@
+
+.securityContainer {
+    padding: 1% 2%;
+}
+
+
+
+
+
+@media screen and (min-width: 900px) {
+    .securityLeft {
+        width: 50%;
+        float: left;
+        overflow: auto;
+        padding-left: 10%;
+    }
+
+    .securityRight {
+        width: 50%;
+        float: right;
+        overflow: auto;
+        padding-right: 10%;
+    }
+
+
+
+
+
+
+    /* Next & previous buttons */
+    .prevS, .nextS {
+      cursor: pointer;
+      position: absolute;
+      top: 25%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      background-color: $sColour;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: $pColour;
+    }
+
+    .slideButtonContainerS {
+        display: flex;
+        align-content: center;
+        width: 100%;
+        position: absolute;
+        bottom: 50%;
+        z-index: 1000;
+    }
+
+
+    /* Caption text */
+    .textS {
+      color: $sColour;
+      font-size: 1.4em;
+      font-weight: bold;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 40%;
+      width: 100%;
+      text-align: center;
+      // background-color: $pColour;
+    }
+}
