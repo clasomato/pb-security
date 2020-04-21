@@ -60,6 +60,11 @@
     }
 }
 
+// Desktop/TV Optimization
+@media screen and (min-width: 1025px) {
+
+}
+
 
 
 
@@ -88,6 +93,12 @@
 
 }
 
+// Desktop/TV Optimization
+@media screen and (min-width: 1025px) {
+        .setupInput {
+            padding: 2% 1%;
+        }
+}
 
 // Third page
 .assistantContainer {

@@ -714,7 +714,7 @@
   .wag {
     position: relative;
     margin-top: 20vh; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000377}}
 .setupInput {
   border: none;
   background-color: #f08222;
@@ -724,7 +724,7 @@
   font-size: 1.4em;
   margin: 3% 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000387}}
 .setupInput::-webkit-input-placeholder {
   color: white; }
 .setupInput:-ms-input-placeholder {
@@ -734,7 +734,11 @@
 .setupInput::placeholder {
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000393}}
+@media screen and (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000398}}
+  .setupInput {
+    padding: 2% 1%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003104}}
 .assistantContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -746,7 +750,7 @@
       flex-wrap: wrap;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003111}}
 .assistantSelect {
   width: 80%;
   margin: 3% 4%;
@@ -754,7 +758,7 @@
   padding: 4% 0%;
   border-radius: 0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003127}}
 .deviceModal {
   position: absolute;
   top: 0;
@@ -772,23 +776,23 @@
       -ms-flex-pack: center;
           justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003139}}
 .modalContainer {
   width: 80%;
   height: 80%;
   background-color: #0d4f77;
   padding: 5% 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003146}}
 .device {
   padding: 4% 5%;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003151}}
 .offset {
   margin-left: 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003159}}
 .doneButton {
   width: 80%;
   background-color: #f08222;
