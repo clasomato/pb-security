@@ -85,15 +85,15 @@ ul {
 
 
 .pColour {
-    background-color: #0d4f77;
+    background-color: $pColour;
 }
 
 .sColour {
-    background-color: #f08222;
+    background-color: $sColour;
 }
 
 .tColour {
-    background-color: #f39b4e;
+    background-color: $tColour;
 }
 
 
@@ -142,6 +142,21 @@ ul {
     padding: 1% 2%;
 }
 
+
+// Tablet Optimization
+@media screen and (min-width: 600px) {
+    p {
+        font-size: 2em;
+    }
+
+    .sHeader1 {
+        font-size: 3em;
+    }
+
+    .sHeader2 {
+        font-size: 2em;
+    }
+}
 
 // Desktop/TV Optimization
 @media screen and (min-width: 1025px) {

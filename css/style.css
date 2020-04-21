@@ -201,23 +201,27 @@
   border-radius: 1em;
   margin: 3% 0%; }
 
+@media screen and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000340}}
+  .navIcon {
+    font-size: 2em; } }
 @media screen and (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000347}}
   .notificationItem {
     margin: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000351}}
   .navIcon {
     height: 2em;
     width: 2em;
     font-size: 2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000357}}
   .notificationItem {
     margin-bottom: 5%;
     font-size: 0.8em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_nav\.scss}line{font-family:\0000362}}
   .navItem {
     font-size: 3em; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\000032}}
@@ -372,35 +376,39 @@
     opacity: .4; }
   to {
     opacity: 1; } }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003158}}
+  .slideButtonContainer {
+    bottom: 10%; } }
+@media screen and (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003166}}
   .slideshow-container {
     height: 95vh !important;
     width: auto !important;
     max-width: 100%;
     overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003173}}
   .sildeshow {
     overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003177}}
   .mySlides {
     width: 100% !important;
     height: 100vh; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003182}}
   .text {
     font-size: 2em;
     background-color: #0d4f77; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003187}}
   .dot {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003191}}
   .slideButtonContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -412,14 +420,14 @@
     bottom: 8%;
     z-index: 1000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003200}}
   .slideButton {
     padding: 1% 2%;
     border-radius: 1em;
     margin: 0 auto;
     font-size: 2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003208}}
   .slidebuttons {
     position: absolute;
     display: -webkit-box;
@@ -432,14 +440,14 @@
     width: 100%;
     font-size: 3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003217}}
   .desktopRight {
     display: block;
     width: 30%;
     float: right;
     overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003224}}
   .deviceIcon {
     width: 2em;
     font-size: 2em;
@@ -457,13 +465,13 @@
     border-radius: 10em;
     padding: 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003236}}
   .desktopLeft {
     width: 68%;
     float: left;
     overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_index\.scss}line{font-family:\00003242}}
   .mobileDevices {
     display: none; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_settings\.scss}line{font-family:\000031}}
@@ -691,7 +699,22 @@
       -ms-flex-pack: center;
           justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000358}}
+@media screen and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000349}}
+  .languageDropdown {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000353}}
+  .setupContainer {
+    padding: 0% 10%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000357}}
+  .wag {
+    position: relative;
+    margin-top: 20vh; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000372}}
 .setupInput {
   border: none;
   background-color: #f08222;
@@ -701,7 +724,7 @@
   font-size: 1.4em;
   margin: 3% 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000382}}
 .setupInput::-webkit-input-placeholder {
   color: white; }
 .setupInput:-ms-input-placeholder {
@@ -711,7 +734,7 @@
 .setupInput::placeholder {
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000393}}
 .assistantContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -723,7 +746,7 @@
       flex-wrap: wrap;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003100}}
 .assistantSelect {
   width: 80%;
   margin: 3% 4%;
@@ -731,7 +754,7 @@
   padding: 4% 0%;
   border-radius: 0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003116}}
 .deviceModal {
   position: absolute;
   top: 0;
@@ -749,23 +772,23 @@
       -ms-flex-pack: center;
           justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003128}}
 .modalContainer {
   width: 80%;
   height: 80%;
   background-color: #0d4f77;
   padding: 5% 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003135}}
 .device {
   padding: 4% 5%;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003140}}
 .offset {
   margin-left: 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/_firstTimeSetup\.scss}line{font-family:\00003148}}
 .doneButton {
   width: 80%;
   background-color: #f08222;
@@ -897,20 +920,32 @@ ul {
   font-size: 2em;
   padding: 1% 2%; }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003148}}
-  .container {
-    padding: 1% 10%; }
+  p {
+    font-size: 2em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003152}}
-  p {
-    font-size: 3em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003156}}
   .sHeader1 {
     font-size: 3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003156}}
+  .sHeader2 {
+    font-size: 2em; } }
+@media screen and (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003163}}
+  .container {
+    padding: 1% 10%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003167}}
+  p {
+    font-size: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003171}}
+  .sHeader1 {
+    font-size: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/003\%20Server\/pb-security\/sass\/style\.scss}line{font-family:\00003175}}
   .sHeader2 {
     font-size: 2em; } }
 

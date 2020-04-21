@@ -153,6 +153,14 @@
 
 
 
+// Tablet Optimization
+@media screen and (min-width: 600px) {
+    .slideButtonContainer {
+        bottom: 10%;
+    }
+}
+
+
 // Desktop/TV Optimization
 @media screen and (min-width: 1025px) {
     .slideshow-container {

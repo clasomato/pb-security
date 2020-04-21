@@ -35,7 +35,12 @@
     margin: 3% 0%;
 }
 
-
+// Tablet Optimization
+@media screen and (min-width: 600px) {
+    .navIcon {
+        font-size: 2em;
+    }
+}
 
 // Desktop/TV Optimization
 @media screen and (min-width: 1025px) {

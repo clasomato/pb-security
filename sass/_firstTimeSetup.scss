@@ -44,7 +44,21 @@
     justify-content:center;
 }
 
+// Tablet Optimization
+@media screen and (min-width: 600px) {
+    .languageDropdown {
+        justify-content: space-between;
+    }
 
+    .setupContainer {
+        padding: 0% 10%;
+    }
+
+    .wag {
+        position: relative;
+        margin-top: 20vh;
+    }
+}
 
 
 
@@ -69,7 +83,10 @@
     color: white;
 }
 
+// Tablet Optimization
+@media screen and (min-width: 600px) {
 
+}
 
 
 // Third page
@@ -88,7 +105,10 @@
     border-radius: 0.5em;
 }
 
+// Tablet Optimization
+@media screen and (min-width: 600px) {
 
+}
 
 
 
@@ -132,4 +152,9 @@
     position: absolute;
     bottom: 0;
     padding: 3% 0%;
+}
+
+// Tablet Optimization
+@media screen and (min-width: 600px) {
+
 }
